@@ -25,4 +25,4 @@
    - Type ```quit``` or ```exit``` to stop chatting.
   
 3. **Demo**:
-   ![command line chatgpt demo](cmline_demo.gif)
+   - ![command line chatgpt demo](cmline_demo.gif)
