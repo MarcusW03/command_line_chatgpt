@@ -16,7 +16,7 @@ class ChatClient():
         return self.model
 
 #content_mod = "You are a helpful assistant, answering questions only about financial advise or credit card information. Respond thoughtfully and with plenty of information. For all other questions that are out of the scope of these two sectors, please respond politely that the question is out of your scope. In this case, do not answer it. Here is the question: "
-content_mod = "You are a helpful assistant, helping a user as a simple command line interface. Please reply with simple text."
+content_mod = "You are a helpful assistant, helping a user as a simple command line interface. Please respond in simple text, but provide a thoughtful, detailed response."
 API_KEY = os.getenv("OPENAI_API_KEY")
 
 def chatbot():
