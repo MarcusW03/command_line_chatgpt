@@ -23,6 +23,15 @@
    - With the required dependencies installed and the virtual environment active, you can now run the command line chatgpt interface.
    - Simply run ```python3 chat_client.py``` to start chatting with chatgpt!
    - Type ```quit``` or ```exit``` to stop chatting.
+
+3. **Advanced Usage**:
+   - Add the command line chatgpt as an alias in your terminal!
+   - In the same way you added the api key to your environment in 1b, create an alias in your environment for the command line chatgpt.
+   - In your .zshrc or .bashrc file, add ```alias chat="python3 $HOME/path/to/your/file/chat_client.py"``` where /path/to/your/file is the path needed to your file from your home directory.
+   - For example, ```alias chat="python3 $HOME/command_line_chat/chat_client.py``` would work if chat_client.py was stored in a directory inside of your home directory.
+   - For this to run properly, make sure your environment is active!
+     - For an even more advanced usage, create a bash script that activates the environment and then runs chat_client.py.
+     - Then, you would run the bash script as your alias. For example, ```alias chat="sh $HOME/command_line_chat/chat.sh``` where chat.sh runs ```source /path/to/venv/bin/activate``` and then ```python3 $HOME/path/to/your/file/chat_client.py```
   
-3. **Demo**:
+4. **Demo**:
    - ![command line chatgpt demo](cmline_demo.gif)
