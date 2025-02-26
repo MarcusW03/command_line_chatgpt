@@ -17,8 +17,12 @@
         - For example, ```source .venv/bin/activate``` would activate the environment.
    - 5. Add OpenAI to environment.
         - With the virtual environment active, run ```pip install openai``` to install the OpenAI SDK to the environment.
+        - Additional information on creating and using virtual environments can be found [here](https://docs.python.org/3/library/venv.html#creating-virtual-environments). 
 
 2. **Usage**:
    - With the required dependencies installed and the virtual environment active, you can now run the command line chatgpt interface.
    - Simply run ```python3 chat_client.py``` to start chatting with chatgpt!
-   - Type ```quit``` or ```exit``` to stop chatting. 
+   - Type ```quit``` or ```exit``` to stop chatting.
+  
+3. **Demo**:
+   ![command line chatgpt demo](cmline_demo.gif)
